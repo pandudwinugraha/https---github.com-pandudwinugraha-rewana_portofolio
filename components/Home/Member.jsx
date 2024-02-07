@@ -15,7 +15,7 @@ const Member = () => {
           Rewana Team
         </h2>
         <p className="text-center text-bold">
-          berikut pesan partispan yang terlibat di projek besar rewana tim da
+          berikut pesan partispan yang terlibat di projek besar rewana team da
         </p>
         <div className="px-4 2xl:px-0 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5 mt-8">
           {Pembina.map((pembina, i) => (
