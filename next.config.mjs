@@ -1,6 +1,8 @@
 const nextConfig = {
-  output: 'export',
-};
-
-// Ekspor langsung tanpa menggunakan module.exports
+    output: 'export',
+    images: {
+      loader: 'custom',
+      loaderFile: './my-loader.ts',
+    },
+  }
 export default nextConfig;
