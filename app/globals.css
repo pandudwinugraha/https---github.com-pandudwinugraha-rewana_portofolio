@@ -2,28 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.top_nav a.active{
-    @apply relative;
+.top_nav a.active {
+  @apply relative;
 }
 
-.top_nav a.active::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -14px;
-    height: 2px;
-    background-color: #4CB5F5;
+.top_nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -14px;
+  height: 2px;
+  background-color: #4cb5f5;
 }
 
 .title-section {
-    @apply text-[45px] leading-[67px];
+  @apply text-[45px] leading-[67px];
 }
 
-p{
-    @apply mb-5;
+p {
+  @apply mb-5;
 }
 
 p:last-child {
-    @apply mb-0;
+  @apply mb-0;
+}
+
+.item-pembina {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }

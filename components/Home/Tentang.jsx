@@ -6,15 +6,9 @@ const poppins = Poppins({ subsets: ["latin"], weight: "700" });
 const Tentang = () => {
   return (
     <section className="py-10">
-      <div className="conteiner mx-auto px-4 xl:px-0">
+      <div className="conteiner mx-auto px-4 2xl:px-0">
         <div className="grid grid-4 lg:grid-cols-2 lg:gap-8">
-          <Image
-            src={imgAbout}
-            alt="img-about"
-            className="w-full"
-            width={300}
-            height={200}
-          />
+          <Image src={imgAbout} alt="img-about" className="w-full" />
           <article className="h-full flex flex-col justify-center item-start">
             <br />
             <h2 className={`${poppins.className} title-section`}>

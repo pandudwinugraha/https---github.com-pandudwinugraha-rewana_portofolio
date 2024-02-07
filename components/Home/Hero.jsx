@@ -9,7 +9,7 @@ const fontInter = Inter({ subsets: ["latin"], weight: "700" });
 const Hero = () => {
   return (
     <div className="py-[280px] bg-[url('/rewana.png')] bg-cover bg-right">
-      <div className="container mx-auto px-4 xl:px-0 flex flex-col lg:flex-row">
+      <div className="container mx-auto px-4 2xl:px-0 flex flex-col lg:flex-row">
         <div className="lg:w-1/2 mb-8 lg:mb-0 lg:order-1">
           <div
             className={`bg-gradient-to-r from-[#198528] to-[#47a0db] max-w-max rounded-md py-2 px-[20px] text-[36px] font-semibold ${fontPoppins.className} mb-[10px] text-white hover:bg-gradient-to-br from-[#47a0db] to-[#198528]`}
