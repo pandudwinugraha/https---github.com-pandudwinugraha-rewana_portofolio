@@ -35,7 +35,7 @@ const Member = () => {
                 {pembina.status}
               </h2>
               <br />
-              <p className="px-6 text-[15px] max-w-[1000px] 3xl:px-0 text-[#6d6c6c] mb-5">
+              <p className="text-[15px] max-w-[1000px] px-6  3xl:px-0 text-[#6d6c6c] mb-5">
                 {pembina.desc}
               </p>
             </div>
