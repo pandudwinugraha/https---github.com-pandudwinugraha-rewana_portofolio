@@ -14,10 +14,10 @@ const Member = () => {
         >
           Rewana Team
         </h2>
-        <p className="text-center text-bold">
+        <p className="text-center max-w-[512px] mx-auto text-bold">
           berikut pesan partispan yang terlibat di projek besar rewana team da
         </p>
-        <div className="px-4 2xl:px-0 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5 mt-8">
+        <div className="px-4 2xl:px-0 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-8">
           {Pembina.map((pembina, i) => (
             <div
               className="px-6 3xl:px-0 item-pembina flex flex-col py-[45px] pyx-[30px] bg-[#ebebebb2] rounded-[20px] hover:shadow-lg transition duration-300"
@@ -35,7 +35,7 @@ const Member = () => {
                 {pembina.status}
               </h2>
               <br />
-              <p className="text-[15px] max-w-[1000px] px-6  3xl:px-0 text-[#6d6c6c] mb-5">
+              <p className="text-[15px] max-w-[1000px] mx-auto px-6 3xl:px-0 text-[#6d6c6c] mb-5">
                 {pembina.desc}
               </p>
             </div>

@@ -17,7 +17,7 @@
 }
 
 .title-section {
-  @apply text-[45px] leading-[67px];
+  @apply text-[40px] leading-[55px];
 }
 
 p {
