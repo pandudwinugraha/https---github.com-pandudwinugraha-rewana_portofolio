@@ -7,7 +7,7 @@ import projek3 from "@/public/projek3.png"
 import projek4 from "@/public/projek4.png"
 
 const poppins = Poppins({ subsets: ["latin"], weight: "600" });
-const dokumentasi = () => {
+const Dokumentasi = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto px-4 2xl:px-0">
@@ -50,4 +50,4 @@ const dokumentasi = () => {
   );
 };
 
-export default dokumentasi;
+export default Dokumentasi;

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const dukungan = () => {
+const Dukungan = () => {
   return (
-    <div>dukungan</div>
+    <div>Dukungan</div>
   )
 }
 
-export default dukungan
+export default Dukungan
