@@ -17,7 +17,7 @@ const Dukungan = () => {
         <h2
           className={`${poppins.className} text-[45px] leading-[67px] text-center mb-2 font-bold`}
         >
-          Didukung Oleh
+          Didukung oleh
         </h2>
         <p className="text-center max-w-[555px] mx-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec consequat sapien. Nulla facilisi. Ut vehicula fermentum libero, vel ultricies leo molestie sit amet. Integer consequat libero at libero fermentum, nec ultricies nulla ullamcorper. 
