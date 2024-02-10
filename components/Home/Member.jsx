@@ -10,7 +10,7 @@ const Member = () => {
     <section className="py-16">
       <div className="container mx-auto px-4 2xl:px-0">
         <h2
-          className={`${poppins.className} text-[45px] leading-[67px] text-center mb-2 `}
+          className={`${poppins.className} text-[45px] leading-[67px] text-center mb-2 font-bold`}
         >
           Rewana Team
         </h2>

@@ -11,7 +11,9 @@ const Tentang = () => {
           <Image src={imgAbout} alt="img-about" className="w-full" />
           <article className="h-full flex flex-col justify-center item-start">
             <br />
-            <h2 className={`${poppins.className} title-section`}>
+            <h2
+              className={`${poppins.className} text-[45px] leading-[67px] mb-2 font-bold`}
+            >
               Tentang Rewana
             </h2>
             <p className="text-[15px] max-w-[635px] my-4">

@@ -10,8 +10,8 @@ const poppins = Poppins({ subsets: ["latin"], weight: "600" });
 const Dokumentasi = () => {
   return (
     <section className="py-16">
-      <div className="container mx-auto px-4 2xl:px-0">
-        <h2 className={`${poppins.className} text-[45px] leading-[67px] text-center mb-2`}>Dokuemntasi Kegiatan</h2>
+      <div className="container mx-auto px-16 4xl:px-0">
+        <h2 className={`${poppins.className} text-[45px] leading-[67px] text-center mb-2 font-bold`}>Dokuemntasi Kegiatan</h2>
         <p className="text-center max-w-[555px] mx-auto">
           Dsini adalah dokumentasi kami selama projek rewana berlangsung dan inilah beberapa kisah yang akan kami tuang melalui gambar dalam perjalanan ekspedisi rewana untuk menyebarkan digital ke penjuru indonesia
         </p>
