@@ -33,7 +33,7 @@ const Dukungan = () => {
             <Image src={Logo3} alt="Logo3" width={180} height={64} />
           </div>
           <div className="flex justify-center">
-            <Image src={Logo3} alt="Logo4" width={150} height={64} />
+            <Image src={Logo4} alt="Logo4" width={150} height={64} />
           </div>
           <div className="flex justify-center">
             <Image src={Logo5} alt="Logo5" width={180} height={64} />
