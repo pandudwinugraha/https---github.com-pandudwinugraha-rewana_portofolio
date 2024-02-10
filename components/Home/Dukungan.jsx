@@ -4,7 +4,6 @@ import { Poppins } from "next/font/google";
 import Logo1 from "@/public/Logo1.png";
 import Logo2 from "@/public/Logo2.png";
 import Logo3 from "@/public/Logo3.png";
-import Logo4 from "@/public/Logo4.png";
 import Logo5 from "@/public/Logo5.png";
 import Logo6 from "@/public/Logo6.png";
 
@@ -31,9 +30,6 @@ const Dukungan = () => {
           </div>
           <div className="flex justify-center">
             <Image src={Logo3} alt="projek3" width={180} height={64} />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Logo4} alt="projek4" width={150} height={64} />
           </div>
           <div className="flex justify-center">
             <Image src={Logo5} alt="projek5" width={180} height={64} />
