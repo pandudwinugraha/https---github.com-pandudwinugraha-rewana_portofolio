@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/image/google";
 import { Poppins } from "next/font";
 import Logo1 from "../../public/Logo1.png";
 import Logo2 from "../../public/Logo2.png";
