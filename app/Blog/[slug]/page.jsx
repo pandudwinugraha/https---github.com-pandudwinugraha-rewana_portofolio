@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import banner from "@/public/tentang/banner.png"
+import kucing from "@/public/blog/image/kucing.jpg"
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "600" });
@@ -8,7 +8,7 @@ const page = () => {
   return (
     <section>
     <div className="banner-page">
-     <Image src={banner} alt="banner tentang" className='w-full'/>
+     <Image src={kucing} alt="banner tentang" className='w-full'/>
     </div>
     <div className="container mx-auto px-4 py-16 2xl:px-0">
       <article>
