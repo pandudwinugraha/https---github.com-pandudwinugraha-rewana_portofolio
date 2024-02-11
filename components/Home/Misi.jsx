@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "700" });
-const Tentang = () => {
+const Misi = () => {
   return (
     <section className="py-10">
       <div className="conteiner mx-auto px-4 2xl:px-0">
@@ -14,7 +14,7 @@ const Tentang = () => {
             <h2
               className={`${poppins.className} text-[45px] leading-[67px] mb-2 font-bold`}
             >
-              Tentang Rewana
+              Misi Rewana Team
             </h2>
             <p className="text-[15px] max-w-[635px] my-4">
               Lorem ipsum dolor sit amet consectetur. Ut metus aliquam dictumst
@@ -32,4 +32,4 @@ const Tentang = () => {
   );
 };
 
-export default Tentang;
+export default Misi;
