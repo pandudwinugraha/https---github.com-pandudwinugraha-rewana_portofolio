@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import kucing from "@/public/blog/image/kucing.jpg"
+import kucing from "@/public/blog/kucing.png"
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "600" });
