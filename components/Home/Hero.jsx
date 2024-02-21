@@ -22,10 +22,10 @@ const Hero = () => {
           >
             Di Rewana Portofolio
           </h1>
-          <p className="text-[20px] max-w-[595px] my-4 text-white">
-            Lorem ipsum dolor sit amet consectetur. Ut metus aliquam dictumst
-            ut. Sem nunc volutpat elit ligula pharetra fringilla libero diam
-            sagittis. Maecenas et mauris sed nisl.
+          <p className="text-[20px] max-w-[700px] my-4 text-white">
+            REWANA adalah sebuah proyek yang bertujuan menyebarkan teknologi
+            secara merata di seluruh Indonesia, sebagai kesinambungan dari
+            keberhasilan program INNOVILLAGE 2023.
           </p>
           <br />
           <Link
